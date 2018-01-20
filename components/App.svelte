@@ -18,7 +18,8 @@
         '/': Page1,
         '/page2': Page2,
         default: Page1
-    })
+    });
+
 
     export default {
         data() {
@@ -40,5 +41,5 @@
             Page1,
             Page2
         }
-    }
+    };
 </script>
