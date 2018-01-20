@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html --no-cache"
+    "dev": "parcel index.html --no-cache",
+    "build": "parcel build index.html; mv dist/svelte.html dist/index.html; mv dist/ build/"
   },
   "author": "",
   "license": "UNLICENSED",
